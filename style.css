@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: #833AB4;
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);    
+}
+.box {
+    width: 40%;
+    height: 16rem;
+    background-color: #c9e5e4;
+    opacity: 0.4;
+    border-radius: 20px;
+    margin: 14rem auto;
+    padding-top: 20px;
+}
+.box .heading {
+    margin-left: 20px;
+    margin-top: 20px;
+    opacity: 1;
+    color: red;
+    font-size: 28px;
+}
+.box .para {
+    display: inline;
+    font-size: 18px;
+    color: red;
+    margin-left:20px;
+    margin-top:10px;
+}
+.box #inp {
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 76%;
+    height: 1.50rem;
+}
+.box #weight {
+    margin-top: 20px;
+    color: red;
+    font-size: 26px;
+    margin-left: 20px;
+}
+.box .wrong {
+    margin-top: 10px;
+    margin-left: 20px;
+    display: none;
+    color: red;
+}
